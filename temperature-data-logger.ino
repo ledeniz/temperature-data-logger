@@ -78,6 +78,8 @@ void setup() {
 
   filename = String("temperaturelog.txt");
   Serial.println(String("Begin logging to file: ") + String(filename));
+
+  writeData("/////////////////////////////////////");
 }
 
 void loop() {
